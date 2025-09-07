@@ -1,0 +1,9 @@
+﻿site_name: "EdgeMaster Resource Hub"
+root: "site"
+assets: "assets"
+sections:
+  - id: all
+    title: "All Public Docs"
+    path: "00-overview"
+    globs: ["site/**/*.md"]
+moves: {}

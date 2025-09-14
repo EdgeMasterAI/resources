@@ -1,7 +1,0 @@
-.vscode/*
-!.vscode/tasks.json
-__pycache__/
-*.pyc
-.DS_Store
-Thumbs.db
-site/.cache/

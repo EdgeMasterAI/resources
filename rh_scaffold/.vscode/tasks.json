@@ -1,7 +1,0 @@
-{
-  "version": "2.0.0",
-  "tasks": [
-    {"label":"rh: build site","type":"shell","command":"python","args":["${workspaceFolder}/tools/gen_site.py","site/rh.site.yml"],"problemMatcher":[]},
-    {"label":"rh: build + commit + push","type":"shell","command":"powershell","args":["-NoProfile","-Command","python ${workspaceFolder}/tools/gen_site.py site/rh.site.yml; git add -A; git commit -m 'RH: rebuild indexes'; git push"],"problemMatcher":[]}
-  ]
-}
